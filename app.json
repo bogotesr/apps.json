@@ -1,0 +1,77 @@
+{
+  "name": "AltStore",
+  "identifier": "com.rileytestut.AltStore",
+  "sourceURL": "https://cdn.altstore.io/file/altstore/apps.json",
+  "apps": [
+    {
+      "name": "AltStore",
+      "bundleIdentifier": "com.rileytestut.AltStore.Beta",
+      "developerName": "Riley Testut",
+      "subtitle": "An alternative App Store for iOS.",
+      "version": "1.5.1b",
+      "versionDate": "2022-05-27T12:00:00-07:00",
+      "versionDescription": "This beta fixes the following issues:\n\nâ€¢ Using Apple IDs that contain capital letters\nâ€¢ Using Apple IDs with 2FA enabled without any trusted devices\nâ€¢ Repeatedly asking some users to sign in every refresh\nâ€¢ \"Incorrect Apple ID or password\" error after changing Apple ID email address\nâ€¢ â€œApplication is missing application-identifierâ€ error when sideloading or (de-)activating certain apps",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_5_1_b.ipa",
+      "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
+      "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
+      "tintColor": "018084",
+      "size": 5464776,
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
+        "https://user-images.githubusercontent.com/705880/78942222-0fe6da00-7a6e-11ea-9f2a-dda16157583c.PNG",
+        "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
+      ],
+      "permissions": [
+        {
+          "type": "background-fetch",
+          "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
+        },
+        {
+          "type": "background-audio",
+          "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
+        }
+      ]
+    },
+    {
+      "name": "Clip",
+      "bundleIdentifier": "com.rileytestut.Clip.Beta",
+      "subtitle": "Manage your clipboard history with ease.",
+      "developerName": "Riley Testut",
+      "version": "1.1b1",
+      "versionDate": "2020-06-17T12:30:00-07:00",
+      "versionDescription": "This update adds a Custom Keyboard app extension for quick access to clippings when editing text.\n\nTo enable the keyboard, go to Settings > General > Keyboard > Keyboards > Add New Keyboard... and add \"ClipBoard\". Once added, make sure to then enable \"Allow Full Access\" for ClipBoard so it can access your clippings.",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/apps/clip/1_1_b1.ipa",
+      "localizedDescription": "Clip is a simple clipboard manager for iOS. \n\nUnlike other clipboard managers, Clip can continue monitoring your clipboard while in the background. No longer do you need to remember to manually open or share to an app to save your clipboard; just copy and paste as you would normally do, and Clip will have your back.\n\nIn addition to background monitoring, Clip also has these features:\n\nâ€¢ Save text, URLs, and images copied to the clipboard.\nâ€¢ Copy, delete, or share any clippings saved to Clip.\nâ€¢ Customizable history limit.\n\nDownload Clip today, and never worry about losing your clipboard again!",
+      "iconURL": "https://user-images.githubusercontent.com/705880/63391981-5326f800-c37a-11e9-99d8-760fd06bb601.png",
+      "tintColor": "EC008C",
+      "size": 462771,
+      "permissions": [
+        {
+          "type": "background-audio",
+          "usageDescription": "Allows Clip to continuously monitor your clipboard in the background."
+        }
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/63391950-34286600-c37a-11e9-965f-832efe3da507.png",
+        "https://user-images.githubusercontent.com/705880/70830209-8e738980-1da4-11ea-8b3b-6e5fbc78adff.png",
+        "https://user-images.githubusercontent.com/705880/84842227-70a80b00-aff9-11ea-8b04-bedb1f49c4a7.PNG",
+        "https://user-images.githubusercontent.com/705880/84842231-7271ce80-aff9-11ea-9272-e128aeceb95b.PNG"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "e",
+      "identifier": "updated-faq",
+      "caption": "false",
+      "tintColor": "018084",
+      "imageURL": "https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=681&h=383&crop=1"
+      "url": "https://rickroll.xyz",
+      "date": "2022-07-28",
+      "notify": false
+    }
+  ],
+  "userInfo": {
+    "patreonAccessToken": "no"
+  }
+}
